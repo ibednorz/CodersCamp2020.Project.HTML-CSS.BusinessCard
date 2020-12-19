@@ -1,0 +1,67 @@
+/* variables */
+* {
+  --textDark: #234361;
+  --blues: #1070ca;
+  --lightBlue: #4da8ff;
+}
+
+/* end */
+
+.hero {
+  padding: 74px 16px 0;
+}
+
+.heroImage {
+  box-sizing: content-box;
+  width: 96px;
+  height: 96px;
+  border: 16px solid #f6f9fd;
+  border-radius: 50%;
+}
+
+.heroHeader {
+  font-size: 26px;
+  line-height: 32px;
+  text-align: center;
+  color: var(--textDark);
+}
+
+.heroParagraph {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 32px;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.heroLink {
+  font-weight: bold;
+  color: var(--lightBlue);
+  text-decoration: none;
+}
+
+.heroContact {
+  border-radius: 64px;
+  color: #fff;
+  background-color: var(--lightBlue);
+  display: inline-block;
+  padding: 4px 24px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 40px;
+  text-decoration: none;
+}
+
+.heroImageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heroHello {
+  display: none;
+}
+
+.heroSpecial {
+  color: var(--blues);
+}

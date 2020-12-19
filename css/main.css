@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;600;700&family=Roboto+Mono:wght@400;700&display=swap");
+
+@import "hero.css";
+/* variables */
+* {
+  --textDark: #234361;
+  --blue: #1070ca;
+  --text: #234361;
+}
+
+/* end */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Nunito;
+  color: var(--text);
+}
