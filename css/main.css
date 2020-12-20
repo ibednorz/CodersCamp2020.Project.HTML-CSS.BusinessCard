@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;600;700&family=Roboto+Mono:wght@400;700&display=swap");
 
 @import "hero.css";
+@import "skills.css";
 /* variables */
-* {
+:root {
   --textDark: #234361;
   --blue: #1070ca;
   --text: #234361;
@@ -17,6 +18,7 @@ html {
 *:before,
 *:after {
   box-sizing: inherit;
+  margin: 0;
 }
 
 body {

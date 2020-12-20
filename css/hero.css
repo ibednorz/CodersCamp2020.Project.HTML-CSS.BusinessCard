@@ -1,5 +1,5 @@
 /* variables */
-* {
+:root {
   --textDark: #234361;
   --blues: #1070ca;
   --lightBlue: #4da8ff;
@@ -8,7 +8,7 @@
 /* end */
 
 .hero {
-  padding: 74px 16px 0;
+  padding: 74px 16px 88px;
 }
 
 .heroImage {
