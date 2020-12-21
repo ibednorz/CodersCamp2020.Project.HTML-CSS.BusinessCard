@@ -1,0 +1,99 @@
+/* variables */
+:root {
+  --textDark: #234361;
+  --blue: #1070ca;
+  --text: #234361;
+  --lighterBlue: #dbeaf7;
+  --lightGray: #a3a3a3;
+  --gray: #212528;
+  --mediumGray: #464a4d;
+  --darkGray: #1e1e1e;
+  --projetGray: #808082;
+  --projectLink: #14b5d0;
+}
+
+/* end */
+
+.github {
+  height: 24px;
+  width: 24px;
+  /* margin-bottom: 10px; */
+}
+
+.projects {
+  padding: 64px 16px 0;
+}
+
+.projectsDesc {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 32px;
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 46px;
+}
+
+.projectsHeader {
+  font-size: 36px;
+  line-height: 48px;
+  color: var(--textDark);
+  text-align: center;
+}
+
+.project {
+  background: var(--gray);
+  overflow: hidden;
+  border-radius: 16px;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 24px;
+  color: var(--lightGray);
+  font-family: Roboto Mono;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+}
+
+.projectContent {
+  padding: 24px 16px;
+}
+
+.projectWindows {
+  height: 40px;
+  background: var(--darkGray);
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 16px;
+}
+
+.projectCircle {
+  display: block;
+  width: 8px;
+  height: 8px;
+  background: var(--mediumGray);
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.projectGrid {
+  display: grid;
+  grid-template-columns: 102px 1fr;
+  column-gap: 10px;
+  padding: 5px 0 5px;
+}
+.projectLabel {
+  display: block;
+  text-align: right;
+  font-weight: normal;
+  color: var(--projetGray);
+}
+
+.projectTitle {
+  font-weight: bold;
+  color: #fff;
+  font-size: 13px;
+  line-height: 24px;
+}
+
+.projectLink {
+  color: var(--projectLink);
+  text-decoration: none;
+}

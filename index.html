@@ -31,8 +31,8 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident,
             quae. Porro nobis pariatur atque aspernatur iusto magni temporibus
             perferendis voluptatibus!
-            <a href="#skils" class="heroLink">my skills</a>
-            <a href="#project" class="heroLink">my projects</a>
+            <a href="#skills" class="heroLink">my skills</a>
+            <a href="#projects" class="heroLink">my projects</a>
             <a href="#contact" class="heroLink">contact me</a>
           </p>
           <a href="mailto:bednorz.ireneusz@gmail.com" class="heroContact"
@@ -72,7 +72,7 @@
         </article>
       </section>
       <section class="projects" id="projects">
-        <h2 class="projectsSectionHeader">Recent projects</h2>
+        <h2 class="projectsHeader">Recent projects</h2>
         <p class="projectsDesc">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid
           provident omnis hic ullam iusto eum est odit reiciendis accusantium
@@ -80,22 +80,40 @@
         </p>
         <div class="projectsGrid">
           <article class="project">
-            <h3 class="projectTitle"><span>project</span><span>test</span></h3>
-            <p>
-              <span>description: </span>
-              <span
-                >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos,
-                praesentium?</span
-              >
-            </p>
-            <p>
-              <span>demo: </span>
-              <span>&lt;<a href="#" title="git demo">see_here</a>&gt;</span>
-            </p>
-            <p>
-              <span>github: </span>
-              <span>&lt;<a href="#" title="git demo">sorce_code</a>&gt;</span>
-            </p>
+            <div class="projectWindows">
+              <span class="projectCircle"></span>
+              <span class="projectCircle"></span>
+              <span class="projectCircle"></span>
+            </div>
+            <div class="projectContent">
+              <img src="./img/git.svg" alt="" class="github" />
+              <h3 class="projectTitle projectGrid">
+                <span class="projectLabel">project:</span><span>test</span>
+              </h3>
+              <p class="projectGrid">
+                <span class="projectLabel">description: </span>
+                <span
+                  >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quos, praesentium?</span
+                >
+              </p>
+              <p class="projectGrid">
+                <span class="projectLabel">demo: </span>
+                <span
+                  >&lt;<a class="projectLink" href="#" title="git demo"
+                    >see_here</a
+                  >&gt;</span
+                >
+              </p>
+              <p class="projectGrid">
+                <span class="projectLabel">github: </span>
+                <span
+                  >&lt;<a class="projectLink" href="#" title="git demo"
+                    >sorce_code</a
+                  >&gt;</span
+                >
+              </p>
+            </div>
           </article>
         </div>
       </section>

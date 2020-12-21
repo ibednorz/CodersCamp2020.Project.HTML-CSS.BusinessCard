@@ -2,11 +2,14 @@
 
 @import "hero.css";
 @import "skills.css";
+@import "projects.css";
+
 /* variables */
 :root {
   --textDark: #234361;
   --blue: #1070ca;
   --text: #234361;
+  --lighterBlue: #dbeaf7;
 }
 
 /* end */
