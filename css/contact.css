@@ -1,0 +1,33 @@
+.contact {
+  background: var(--lighterBlue);
+  padding: 64px 16px 88px;
+}
+.contactHeader {
+  font-size: 36px;
+  line-height: 48px;
+  color: var(--textDark);
+  text-align: center;
+}
+
+.contactDesc {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 32px;
+  text-align: center;
+}
+
+.contactMail {
+  border-radius: 64px;
+  color: #fff;
+  background-color: var(--lightBlue);
+  display: inline-block;
+  padding: 4px 24px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 40px;
+  text-decoration: none;
+}
+.contactList {
+  text-align: center;
+}

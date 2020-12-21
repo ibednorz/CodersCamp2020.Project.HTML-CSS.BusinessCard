@@ -3,15 +3,23 @@
 @import "hero.css";
 @import "skills.css";
 @import "projects.css";
+@import "contact.css";
+@import "socials.css";
 
 /* variables */
 :root {
   --textDark: #234361;
   --blue: #1070ca;
   --text: #234361;
+  --lightBlue: #4da8ff;
   --lighterBlue: #dbeaf7;
+  --lightGray: #a3a3a3;
+  --gray: #212528;
+  --mediumGray: #464a4d;
+  --darkGray: #1e1e1e;
+  --projetGray: #808082;
+  --projectLink: #14b5d0;
 }
-
 /* end */
 html {
   box-sizing: border-box;
