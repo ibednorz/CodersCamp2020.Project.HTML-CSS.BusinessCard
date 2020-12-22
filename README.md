@@ -1,7 +1,5 @@
 # CodersCamp 2020 - Projekt HTML & CSS
 
-## Projekt HTML & CSS — Wizytówka / Portfolio
-
 ##### HTML & CSS:
 - Box-model
 - Kaskadowość CSS
