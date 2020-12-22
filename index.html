@@ -32,12 +32,11 @@
             <span class="heroSpecial">Frontend developer</span>.
           </h1>
           <p class="heroParagraph">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident,
-            quae. Porro nobis pariatur atque aspernatur iusto magni temporibus
-            perferendis voluptatibus!
-            <a href="#skills" class="heroLink">my skills</a>
-            <a href="#projects" class="heroLink">my projects</a>
-            <a href="#contact" class="heroLink">contact me</a>
+            Check the list of <a href="#skills" class="heroLink">my skills</a>.
+            Don't forget to take a look at
+            <a href="#projects" class="heroLink">my projects</a>. Currently I'm
+            looking for a new challenges so if you have one -
+            <a href="#contact" class="heroLink">contact me</a>.
           </p>
           <a href="mailto:bednorz.ireneusz@gmail.com" class="heroContact"
             >bednorz.ireneusz@gmail.com</a
@@ -202,26 +201,57 @@
           laborum?
         </p>
         <div class="contactList">
+          <div id="send_form_status"></div>
+          <form method="post" action="#" id="contact_form">
+            <div><label for="name">Name</label></div>
+            <div>
+              <input type="text" name="name" id="name" class="formField" />
+            </div>
+            <div><label for="phone">Phone number</label></div>
+            <div>
+              <input type="text" name="phone" id="phone" class="formField" />
+            </div>
+            <div><label for="email">E-mail</label></div>
+            <div>
+              <input type="text" name="email" id="email" class="formField" />
+            </div>
+            <div><label for="message">Message</label></div>
+            <div>
+              <textarea
+                name="message"
+                id="message"
+                class="formField"
+              ></textarea>
+            </div>
+            <div><button id="sendBtn">Send</button></div>
+          </form>
           <ul class="socials">
             <li class="socialsItem">
-              <a href="#" class="socialsLink"
+              <a
+                href="https://github.com/ibednorz/"
+                target="_blank"
+                class="socialsLink"
                 ><img src="./img/gitBlue.svg" alt="github" class="socialsIcon"
               /></a>
             </li>
             <li class="socialsItem">
-              <a href="#" class="socialsLink"
+              <a
+                href="https://www.facebook.com/ireneusz.bednorz/"
+                class="socialsLink"
+                target="_blank"
                 ><img src="./img/faceBlue.svg" alt="face" class="socialsIcon"
               /></a>
             </li>
             <li class="socialsItem">
               <a href="#" class="socialsLink"
-                ><img src="./img/instaBlue.svg" alt="twit" class="socialsIcon"
+                ><img
+                  src="./img/instaBlue.svg"
+                  target="_blank"
+                  alt="twit"
+                  class="socialsIcon"
               /></a>
             </li>
           </ul>
-          <a class="contactMail" href="mailto:bednorz.ireneusz@gmail.com"
-            >bednorz.ireneusz@gmail.com</a
-          >
         </div>
       </section>
     </main>
