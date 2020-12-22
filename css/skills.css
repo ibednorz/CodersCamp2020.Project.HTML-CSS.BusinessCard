@@ -63,3 +63,16 @@
   height: 3px;
   border-radius: 50%;
 }
+
+@media (min-width: 960px) {
+  .skillsHeader {
+    font-size: 48px;
+    line-height: 56px;
+  }
+  .skillsColums {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1184;
+    margin: 0 auto;
+  }
+}

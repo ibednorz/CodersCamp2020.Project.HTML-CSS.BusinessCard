@@ -1,7 +1,13 @@
 .hero {
   padding: 74px 16px 88px;
 }
-
+.hand {
+  animation-name: wave-animation;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
 .heroBubble {
   position: absolute;
   left: 64%;
@@ -77,6 +83,10 @@
 }
 
 @media (min-width: 960px) {
+  .heroDesc {
+    max-width: 786;
+    margin: 0 auto;
+  }
   .heroHello {
     display: block;
     background: var(--blue);
@@ -109,5 +119,32 @@
   .heroParagraph {
     font-size: 20px;
     line-height: 40px;
+  }
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  }
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
   }
 }
