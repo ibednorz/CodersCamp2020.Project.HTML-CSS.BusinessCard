@@ -40,3 +40,20 @@ Available at [Ireneusz Bednorz Portfolio](https://ibednorz.github.io/CodersCamp2
 - Animacje keyframes
 - Formularz (wysłanie formularza może powodować przeładowanie strony, gdyż w kursie nie było jeszcze jego obsługi)
 - Responsive Web Design
+
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/Mrozelek/CodersCamp2020.Project.HTML-CSS.BusinessCard.svg?style=for-the-badge
+[contributors-url]: https://github.com/Mrozelek/CodersCamp2020.Project.HTML-CSS.BusinessCard/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Mrozelek/CodersCamp2020.Project.HTML-CSS.BusinessCard.svg?style=for-the-badge
+[forks-url]: https://github.com/Mrozelek/CodersCamp2020.Project.HTML-CSS.BusinessCard/network/members
+[stars-shield]: https://img.shields.io/github/stars/Mrozelek/CodersCamp2020.Project.HTML-CSS.BusinessCard.svg?style=for-the-badge
+[stars-url]: https://github.com/Mrozelek/CodersCamp2020.Project.HTML-CSS.BusinessCard/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Mrozelek/CodersCamp2020.Project.HTML-CSS.BusinessCard.svg?style=for-the-badge
+[issues-url]: https://github.com/Mrozelek/CodersCamp2020.Project.HTML-CSS.BusinessCard/issues
+[license-shield]: https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge
+[license-url]: https://github.com/Mrozelek/CodersCamp2020.Project.HTML-CSS.BusinessCard/blob/main/LICENSE
+[product-screenshot]: images/screenshot.png
