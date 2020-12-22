@@ -15,6 +15,7 @@
   font-size: 16px;
   line-height: 32px;
   text-align: center;
+  margin: 20px 0 30px;
 }
 
 .contactMail {
@@ -30,4 +31,22 @@
 }
 .contactList {
   text-align: center;
+}
+
+@media (min-width: 960px) {
+  .contactHeader {
+    font-size: 48px;
+    line-height: 56px;
+  }
+  .contactDesc {
+    font-size: 20px;
+    line-height: 40px;
+  }
+  .contactList {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 580px;
+    margin: 50px auto 0;
+  }
 }
